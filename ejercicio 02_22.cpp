@@ -1,13 +1,13 @@
-// Fecha creaci髇: 30/08/2023
-// Fecha modificaci髇: 30/08/2023
-// N鷐ero de ejericio: 22
-// Problema planteado: Leer 2 vectores de dimensi髇 N y calcule la multiplicaci髇 de los mismos en otro vector.
+// Fecha creaci贸n: 30/08/2023
+// Fecha modificaci贸n: 30/08/2023
+// N煤mero de ejericio: 22
+// Problema planteado: Leer 2 vectores de dimensi贸n N y calcule la multiplicaci贸n de los mismos en otro vector.
 #include <iostream>
 using namespace std;
 
 int main(){
     int N;
-    cout << "Ingrese la dimensi髇 para lo vectores: ";cin >> N;
+    cout << "Ingrese la dimension para lo vectores: ";cin >> N;
     int vector1[N];
     int vector2[N];
     int vector3[N];
