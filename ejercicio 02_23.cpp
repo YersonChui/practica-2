@@ -1,13 +1,13 @@
-// Fecha creación: 30/08/2023
-// Fecha modificación: 30/08/2023
-// Número de ejericio: 23
-// Problema planteado: Leer 2 vectores de dimensión N y combine ambos en otro vector.
+// Fecha creaciÃ³n: 30/08/2023
+// Fecha modificaciÃ³n: 30/08/2023
+// NÃºmero de ejericio: 23
+// Problema planteado: Leer 2 vectores de dimensiÃ³n N y combine ambos en otro vector.
 #include <iostream>
 using namespace std;
 
 int main() {
     int N;
-    cout << "Ingrese la dimensión de los vectores: ";cin >> N;
+    cout << "Ingrese la dimension de los vectores: ";cin >> N;
     int vector1[N];
     int vector2[N];
     int vector3[2*N];
