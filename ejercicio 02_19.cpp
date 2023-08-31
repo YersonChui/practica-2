@@ -1,7 +1,7 @@
-// Fecha creación: 29/08/2023
-// Fecha modificación: 30/08/2023
-// Número de ejericio: 19
-// Problema planteado: Hacer un programa que inicialice un vector de números con valores aleatorios, y posterior ordene los elementos de menor a mayor.
+// Fecha creaciÃ³n: 29/08/2023
+// Fecha modificaciÃ³n: 30/08/2023
+// NÃºmero de ejericio: 19
+// Problema planteado: Hacer un programa que inicialice un vector de nÃºmeros con valores aleatorios, y posterior ordene los elementos de menor a mayor.
 
 #include <iostream>
 #include <cstdlib>
@@ -26,13 +26,13 @@ int main() {
                         indice_minimo = j;
                     }
             }
-            int aux = vector[i]; // Guardar el elemento en la posición i
+            int aux = vector[i]; // Guardar el elemento en la posiciÃ³n i
             vector[i] = minimo;
             vector[indice_minimo] = aux;
     }
-    cout << "El vector después de ordenarlo es: " << endl;
+    cout << "El vector despues de ordenarlo es: " << endl;
     for (int i=0; i<n; i++) {
-            cout << vector[i] << " ";
+            cout<<vector[i]<<" ";
     }cout << endl;
 
 
