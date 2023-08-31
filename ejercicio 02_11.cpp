@@ -1,7 +1,7 @@
-// Fecha creaci髇: 28/08/2023
-// Fecha modificaci髇: 28/08/2023
-// N鷐ero de ejericio: 11
-// Problema planteado:Almacene en un arreglo las edades de varias personas (hasta ingresar un -1) y a partir de este arreglo determine la desviaci髇 t韕ica.
+// Fecha creaci贸n: 28/08/2023
+// Fecha modificaci贸n: 28/08/2023
+// N煤mero de ejericio: 11
+// Problema planteado:Almacene en un arreglo las edades de varias personas (hasta ingresar un -1) y a partir de este arreglo determine la desviaci贸n t铆pica.
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -23,9 +23,9 @@ int main(){
             cuadrados += pow(edades[i] - promedio, 2);
     }
     desviacion = sqrt(cuadrados / n);
-    cout << "La desviaci髇 t韕ica de las edades es: " << desviacion << endl;
+    cout << "La desviaci贸n tipica de las edades es: " << desviacion << endl;
   } else{
-    cout << "No se puede calcular la desviaci髇 t韕ica sin datos." << endl;
+    cout << "No se puede calcular la desviaci贸n tipica si no se tiene datos." << endl;
   }
   return 0;
 }
