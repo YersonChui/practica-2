@@ -1,7 +1,7 @@
-// Fecha creación: 30/08/2023
-// Fecha modificación: 30/08/2023
-// Número de ejericio: 20
-// Problema planteado: Crea un programa que pida un número al usuario un número de mes (por ejemplo, el 4) y diga cuántos días tiene (por ejemplo, 30) y el nombre del mes. Debes usar un vector. Para simplificarlo vamos a suponer que febrero tiene 28 días.
+// Fecha creaciÃ³n: 30/08/2023
+// Fecha modificaciÃ³n: 30/08/2023
+// NÃºmero de ejericio: 20
+// Problema planteado: Crea un programa que pida un nÃºmero al usuario un nÃºmero de mes (por ejemplo, el 4) y diga cuÃ¡ntos dÃ­as tiene (por ejemplo, 30) y el nombre del mes. Debes usar un vector. Para simplificarlo vamos a suponer que febrero tiene 28 dÃ­as.
 #include <iostream>
 using namespace std;
 
@@ -11,7 +11,7 @@ int main() {
     int numero;
     cout<<"Ingrese un numero de mes 1-12: ";cin >> numero;
     if (numero < 1, numero>12) {
-            cout << "Numero de mes inválido." << endl;
+            cout << "Numero de mes invalido." << endl;
     }
     cout<<"El mes numero "<<numero<<" es "<<meses[numero-1]<<" y tiene "<<dias[numero-1]<<" dias."<<endl;
 
